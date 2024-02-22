@@ -1,43 +1,4 @@
-.container{
-    display: flex;
-    border: 1px solid red;
-    width: 99%;
-    height: 99%;
-    justify-content: center;
-}
-.box{
-    border: 1px solid blue;
-    flex-direction: column;
-}
-.box:first-child{
-    flex: 1;
-}
-.box:last-child{
-    flex: 4;
-}
-.minibox{
-    border: 1px solid green;
-    width: 100%;
-    display: flex;
-}
-.circle{
-    height: 50px;
-    width: 50px;
-    background: red;
-    border-radius: 50%;
-    margin: 20px 20px 5px 20px;
-}
-.minibox-2{
-    border: 1px solid green;
-    width: 100%;
-    display: flex;
-}
-.cuadrado{
-    height: 50px;
-    width: 50px;
-    background: red;
-    margin-left: 14px;
-}
-.circle:last-child{
-    margin-left: 1500px
+*{
+    padding: 0;
+    margin: 0;
 }
