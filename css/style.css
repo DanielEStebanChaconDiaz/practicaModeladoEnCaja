@@ -1,4 +1,61 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+}
+.menu{
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.menu h2{
+    height: 50px;
+    background: rgb(212, 209, 209);
+    left: 3%;
+    margin-bottom: 5px;
+    padding: 2%;
+    top: 5%;
+    position: relative;
+}
+.enlaces a{
+    width: 80px;
+    height: 30px;
+    left: 8%;
+    top: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    color: gray;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.enlaces a:first-child{
+    top: 47%;
+    left: 635%;
+}
+.enlaces a:nth-child(2){
+    top: 67%;
+    left: 635%;
+}
+.enlaces a:nth-child(3){
+    top: 88%;
+    left: 635%;
+}
+.enlaces a:last-child{
+    top: 108%;
+    left: 635%;
 }
