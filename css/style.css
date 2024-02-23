@@ -2,11 +2,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: #fff;
 }
 .container{
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
+    position: relative;
 
 }
 .menu{
@@ -20,6 +22,7 @@
     bottom: 45%;
 }
 .menu a{
+    top: 25px;
     margin: 25px;
     justify-content: center;
     align-items: center;
@@ -80,7 +83,40 @@
     background: gray;
     transition: 0.2s ease;
 }
+.otro{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.otro h3{
+    display: flex;
+    position: relative;
+    transition: 0.3s ease;
+    padding-left: 10px;
+}
+.otro h3:first-child{
+    margin: 5px 5px 5px 5px;
+    padding: 10%;
+    align-items: center;
+    background: gray;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.otro h3:hover{
+    background: #fff;
+}
+.otro h3:last-child{
+    margin: 5px 5px 5px 5px;
+    padding: 5%;
+    background: gray;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.otro h3:hover{
+    background: #fff;
+}
 .logo{
-    position: absolute;
-    
+    cursor: pointer;
+    transition: 0.3s ease;
 }
