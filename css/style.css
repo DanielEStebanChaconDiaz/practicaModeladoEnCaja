@@ -1,4 +1,29 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.texto{
+    width: 30%;
+    height: auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #adadad;
+    border-radius: 5%;
+}
+.parrafo{
+    width: 70%;
+    height: 70%;
+}
+.titulo{
+    margin-bottom: 4%;
 }
